@@ -1,0 +1,36 @@
+p{
+    color: red;
+    font-size: 24px;
+}
+.Caixa1 {
+/*
+AQUI DEFINE UMA CLASSE
+*/
+/*background-color: red!imporant;*/
+background-color: red;
+width:300px;
+height:300px;
+margin:10px;
+
+}
+.Caixa2{
+width: 400px;
+height:250px;
+background-color: yellow;
+
+}
+
+.Caixa-especial {background-color: olive;
+}
+
+.Caixa4, .Caixa5 {
+width: 500px;
+height: 600px;
+background-color: brown;
+margin: 20px;
+}
+.Caixa5 {background-color: coral;}
+
+.Caixa1 p{color: aqua;}
+
+.Caixa2 p{color: aqua; font-size: 8px;}
