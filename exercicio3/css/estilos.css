@@ -1,4 +1,14 @@
-body{background-color: red;}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fontes/Pacifico-Regular.ttf');
+}
+
+body{background-color: red;
+    font-family:Arial;
+    margin: 0;
+    padding: 0;
+}
+    
 
 .wrapper{
     background-color: yellow;
@@ -9,36 +19,111 @@ header{
     width: 100%;
     height: 44px;
     background-color: #ffffff;
+    float: left;
+    font-family: 'Pacifico';
 }
+
+header .col-3 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #727a82;
+    border: 2px color#dee1e3 solid;
+    display: block;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    height: 16px;
+    padding: 5px;
+
+/*margin: 10px 20 px;
+*/
+
+}
+
+header .col-3 a:hover{
+    background: #dee1e3;
+
+
+}
+
+
 
 .hero{
     width: 100%;
     height: 477px;
-    background-color: salmon;
+    background:purple url('../imagens/banner.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+    float: left;
+
+    /*background-image: url('..images/banner.jpg');
+    background-color: purple;
+    */
+
 }
+
+.texto{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+h1{
+    color: #25a2c3;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+button{
+    background:#f6755e;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+
+
 
 .articles{
     width: 100%;
     height: 500px;
     background-color: white;
+    float: left;
 }
 
 .highlights{
     width: 100%;
     height: 200px;
     background-color: purple;
+    float: left;
 }
 
 .latest-news{
     width: 100%;
     height: 250px;
     background-color: grey;
+    float: left;
 }
 
 footer{
     width: 100%;
     height: 150px;
     background-color: blue;
+    float: left;
 }
 
 .col-1{
@@ -60,6 +145,5 @@ footer{
 .col-3{
     width: 20%;
     height: 44px;
-    background-color: limegreen;
     float: left;
 }
